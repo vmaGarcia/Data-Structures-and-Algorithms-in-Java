@@ -1,9 +1,9 @@
-public class FibonacciProgression{
+public class FibonacciProgression extends Progression{
 
     protected long prev;
 
     /** Contructor tradicional de fibonachi 0,1,1,2,3, ... */
-    public FibonacciProgression(){this(0,1);}
+    public FibonacciProgression(){this(0,1); }
 
     /**Constructor genrado con el primer y segundo valor */
     public FibonacciProgression(long first, long second){

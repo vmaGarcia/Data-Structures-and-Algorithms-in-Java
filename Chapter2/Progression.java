@@ -13,12 +13,12 @@ public class Progression{
     /**retornar el siguiente valor de progresion */
     public long nextValue(){
         long answer = current;
-        advanced();
+        advance();
         return answer;
     }
 
 
-    protected void advanced(){
+    protected void advance(){
         current++;
     }
 
