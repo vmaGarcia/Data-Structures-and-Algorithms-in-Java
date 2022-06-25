@@ -17,6 +17,5 @@ public class ArithmeticProgression extends Progression{
     /**Anadir los incrementos aritmeticos con el valor */
     protected void advance(){
         current += increment;
-        //current = increment;
     }
 }
