@@ -4,10 +4,10 @@ public class Photograph implements Sellable{
     private int price;
     private boolean color;
 
-    public Photograph(String desc, int p, boolean c){
+    public Photograph(String desc, int p, boolean co){
         descript = desc;
         price = p;
-        color = c;
+        color = co;
     }
 
     public String description(){ return descript }

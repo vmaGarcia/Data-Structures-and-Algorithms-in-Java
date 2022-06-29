@@ -8,5 +8,5 @@ public interface Sellable{
     public int listPrice();
 
     /**Devuelve el precio más bajo en centavos que aceptaremos */
-    public int lowestPrice();
+    public int lowestPrice() ;
 }

@@ -23,6 +23,6 @@ public class BoxedItem implements Sellable, Transportable{
     public void setBox(int h, int w, int d){
         height =h;
         width = w;
-        depth = d;
+        depth = d ;
     }
 }
